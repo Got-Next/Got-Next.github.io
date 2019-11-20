@@ -1,0 +1,1699 @@
+
+@font-face {
+                          font-family: "RedHatDisplay-Bold";
+                          src: url('../fonts/RedHatDisplay-Bold.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "RedHatDisplay-Regular";
+                          src: url('../fonts/RedHatDisplay-Regular.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "RedHatDisplay-Medium";
+                          src: url('../fonts/RedHatDisplay-Medium.ttf') format("truetype");
+                        }
+                        
+.queue {
+  width               : 100%;
+  min-width           : 375px;
+  height              : 100vh;
+  min-height          : 812px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(8, 45, 64, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.queue .group12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 84px;
+  height              : 45px;
+  width               : 290px;
+  position            : absolute;
+  margin              : 0;
+  left                : 43px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group12 .players {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 256px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 8.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.7px;
+  line-height         : 10.0px;
+}
+.queue .group12 .group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : 10px;
+  width               : 201px;
+  position            : absolute;
+  margin              : 0;
+  left                : 39px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group12 .group1 .campusrecreational {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 7.72px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.queue .group12 .group1 .tuesday1200pm4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 103px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 7.72px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.queue .group12 .basketball {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 39px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.queue .group12 .a27 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 257px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(237, 210, 103, 1.0);
+  text-align          : left;
+  line-height         : 40.0px;
+}
+.queue .group12 .group4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 34px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group12 .group4 .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group12 .group4 .combinedshape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 18px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group12 .rectangle4 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 18px;
+  height              : 3px;
+  width               : 105px;
+  position            : absolute;
+  margin              : 0;
+  left                : 135px;
+  border-radius       : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.09;
+}
+.queue .livestatuscount {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 159px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 147px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 13.0px;
+}
+.queue .teamqueue {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 257px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 159px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 13.0px;
+}
+.queue .lookingforteam {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 482px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 146px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 13.0px;
+}
+.queue .group5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 182px;
+  height              : 48px;
+  width               : 201px;
+  position            : absolute;
+  margin              : 0;
+  left                : 83px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group5 .rectangle4 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 48px;
+  width               : 62px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group5 .rectangle11 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 48px;
+  width               : 62px;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group5 .rectangle21 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 48px;
+  width               : 62px;
+  position            : absolute;
+  margin              : 0;
+  left                : 139px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group5 .group7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 33px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 91px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group5 .group7 .a7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
+  font-size           : 24.3px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 33.0px;
+}
+.queue .group5 .group7 .looking {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 26px;
+  height              : auto;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 4.86px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.43px;
+  line-height         : 6.0px;
+}
+.queue .group5 .group8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 33px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 160px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group5 .group8 .a2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
+  font-size           : 24.3px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 33.0px;
+}
+.queue .group5 .group8 .inactive {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 26px;
+  height              : auto;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 4.86px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.43px;
+  line-height         : 6.0px;
+}
+.queue .group5 .group6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 33px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group5 .group6 .a18 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
+  font-size           : 24.3px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : -2.27px;
+  line-height         : 33.0px;
+}
+.queue .group5 .group6 .onteam {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 26px;
+  height              : auto;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 4.86px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.43px;
+  line-height         : 6.0px;
+}
+.queue .group11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34px;
+  height              : 32px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 171px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group11 .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group11 .triangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : 11px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group11 .triangle21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 11px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 278px;
+  height              : 179px;
+  width               : 261px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+  border-radius       : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .rectangle1 {
+  background-color    : rgba(8, 45, 64, 1.0);
+  top                 : 290px;
+  height              : 32px;
+  width               : 236px;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+  border-radius       : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 293px;
+  height              : 26px;
+  width               : 117px;
+  position            : absolute;
+  margin              : 0;
+  left                : 49px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group .net {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 117px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 19.27px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 26.0px;
+}
+.queue .group .logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 14px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 59px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group .logo .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group .logo .triangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group .logo .triangle21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .label1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 292px;
+  height              : auto;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 127px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 19.27px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 26.0px;
+}
+.queue .a1angelou2019ssquad {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 297px;
+  height              : auto;
+  width               : 158px;
+  position            : absolute;
+  margin              : 0;
+  left                : 138px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.queue .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 334px;
+  height              : 114px;
+  width               : 232px;
+  position            : absolute;
+  margin              : 0;
+  left                : 80px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group2 .a2domu2019steam3dc {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 234px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.queue .group2 .rectangle4 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 23px;
+  height              : 1px;
+  width               : 216px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group2 .rectangle11 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 54px;
+  height              : 1px;
+  width               : 216px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group2 .rectangle21 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 85px;
+  height              : 1px;
+  width               : 216px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 505px;
+  height              : 255px;
+  width               : 247px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group10 .group9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 247px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group10 .group9 .rectangle4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 247px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group10 .group9 .group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 32px;
+  width               : 139px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group10 .group9 .group3 .caronan {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.queue .group10 .group9 .group3 .etienne {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 141px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.queue .group10 .group9 .group3 .etienne .span1 {
+  text-align          : justify;
+  line-height         : 21.0px;
+}
+.queue .group10 .group9 .group3 .etienne .span2 {
+  font-size           : 12.0px;
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.queue .group10 .group9 .rectangle11 {
+  background-color    : rgba(242, 219, 128, 1.0);
+  top                 : 9px;
+  height              : 16px;
+  width               : 43px;
+  position            : absolute;
+  margin              : 0;
+  left                : 193px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group10 .group9 .group21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 46px;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group10 .group9 .group21 .overridesactivityviewairdropcontact {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 46px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group10 .group9 .group21 .overridesactivityviewairdropcontact .avatar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 45px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group10 .group9 .invite {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 201px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 8.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.queue .group10 .group9 .waitingu2026 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 165px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 6.0px;
+  color               : rgba(255, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 8.0px;
+}
+.queue .group10 .group9 .rectangle21 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 31px;
+  height              : 16px;
+  width               : 43px;
+  position            : absolute;
+  margin              : 0;
+  left                : 193px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group10 .group9 .join {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34px;
+  height              : auto;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 205px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 8.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.queue .group10 .group91 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 66px;
+  height              : 57px;
+  width               : 247px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group10 .group91 .rectangle4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 247px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group10 .group91 .group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 33px;
+  width               : 139px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group10 .group91 .group3 .reventar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.queue .group10 .group91 .group3 .ridge {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 141px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.queue .group10 .group91 .group3 .ridge .span1 {
+  text-align          : justify;
+  line-height         : 21.0px;
+}
+.queue .group10 .group91 .group3 .ridge .span2 {
+  font-size           : 12.0px;
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.queue .group10 .group91 .rectangle11 {
+  background-color    : rgba(242, 219, 128, 1.0);
+  top                 : 9px;
+  height              : 16px;
+  width               : 43px;
+  position            : absolute;
+  margin              : 0;
+  left                : 193px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group10 .group91 .group21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 46px;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group10 .group91 .group21 .overridesactivityviewairdropcontact {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 46px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group10 .group91 .group21 .overridesactivityviewairdropcontact .avatar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 45px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group10 .group91 .invite {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 201px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 8.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.queue .group10 .group91 .joined {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 165px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 6.0px;
+  color               : rgba(90, 152, 0, 1.0);
+  text-align          : left;
+  line-height         : 8.0px;
+}
+.queue .group10 .group91 .rectangle21 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 31px;
+  height              : 16px;
+  width               : 43px;
+  position            : absolute;
+  margin              : 0;
+  left                : 193px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group10 .group91 .join {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34px;
+  height              : auto;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 205px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 8.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.queue .group10 .group92 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 132px;
+  height              : 57px;
+  width               : 247px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group10 .group92 .rectangle4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 247px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group10 .group92 .group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 32px;
+  width               : 139px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group10 .group92 .group3 .yu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.queue .group10 .group92 .group3 .eric {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 141px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.queue .group10 .group92 .group3 .eric .span1 {
+  text-align          : justify;
+  line-height         : 21.0px;
+}
+.queue .group10 .group92 .group3 .eric .span2 {
+  font-size           : 12.0px;
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.queue .group10 .group92 .rectangle11 {
+  background-color    : rgba(242, 219, 128, 1.0);
+  top                 : 9px;
+  height              : 16px;
+  width               : 43px;
+  position            : absolute;
+  margin              : 0;
+  left                : 193px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group10 .group92 .group21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 46px;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group10 .group92 .group21 .overridesactivityviewairdropcontact {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 46px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group10 .group92 .group21 .overridesactivityviewairdropcontact .avatar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 45px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group10 .group92 .invite {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 201px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 8.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.queue .group10 .group92 .waitingu2026 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 165px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 6.0px;
+  color               : rgba(255, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 8.0px;
+}
+.queue .group10 .group92 .rectangle21 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 31px;
+  height              : 16px;
+  width               : 43px;
+  position            : absolute;
+  margin              : 0;
+  left                : 193px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group10 .group92 .join {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34px;
+  height              : auto;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 205px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 8.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.queue .group10 .group93 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 198px;
+  height              : 57px;
+  width               : 247px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group10 .group93 .rectangle4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 57px;
+  width               : 247px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group10 .group93 .group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 32px;
+  width               : 139px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group10 .group93 .group3 .rego {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.queue .group10 .group93 .group3 .shane {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 141px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.queue .group10 .group93 .group3 .shane .span1 {
+  text-align          : justify;
+  line-height         : 21.0px;
+}
+.queue .group10 .group93 .group3 .shane .span2 {
+  font-size           : 12.0px;
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.queue .group10 .group93 .rectangle11 {
+  background-color    : rgba(216, 216, 216, 1.0);
+  top                 : 9px;
+  height              : 16px;
+  width               : 43px;
+  position            : absolute;
+  margin              : 0;
+  left                : 193px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group10 .group93 .group21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 46px;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group10 .group93 .group21 .overridesactivityviewairdropcontact {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 46px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group10 .group93 .group21 .overridesactivityviewairdropcontact .avatar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 45px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group10 .group93 .invite {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 201px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 8.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.queue .group10 .group93 .rectangle21 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 31px;
+  height              : 16px;
+  width               : 43px;
+  position            : absolute;
+  margin              : 0;
+  left                : 193px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group10 .group93 .join {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34px;
+  height              : auto;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 205px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 8.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.queue .rectangle2 {
+  background-color    : rgba(3, 25, 36, 1.0);
+  top                 : 506px;
+  height              : 258px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 308px;
+  border-radius       : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .rectangle3 {
+  background-color    : rgba(18, 67, 91, 1.0);
+  top                 : 527px;
+  height              : 98px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 310px;
+  border-radius       : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group14 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 511px;
+  height              : 45px;
+  width               : 45px;
+  position            : absolute;
+  margin              : 0;
+  left                : 63px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group14 .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 44px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group14 .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 45px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group141 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 577px;
+  height              : 45px;
+  width               : 45px;
+  position            : absolute;
+  margin              : 0;
+  left                : 63px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group141 .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 44px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group141 .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 45px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group142 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 643px;
+  height              : 45px;
+  width               : 45px;
+  position            : absolute;
+  margin              : 0;
+  left                : 63px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group142 .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 44px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group142 .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 45px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group143 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 709px;
+  height              : 45px;
+  width               : 45px;
+  position            : absolute;
+  margin              : 0;
+  left                : 63px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group143 .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 44px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.queue .group143 .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 45px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

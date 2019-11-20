@@ -1,0 +1,1398 @@
+
+@font-face {
+                          font-family: "RedHatDisplay-Bold";
+                          src: url('../fonts/RedHatDisplay-Bold.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "RedHatDisplay-Regular";
+                          src: url('../fonts/RedHatDisplay-Regular.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "RedHatDisplay-Medium";
+                          src: url('../fonts/RedHatDisplay-Medium.ttf') format("truetype");
+                        }
+                        
+.sportinfo {
+  width               : 100%;
+  min-width           : 375px;
+  height              : 100vh;
+  min-height          : 812px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.sportinfo .group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1080px;
+  height              : 2583px;
+  width               : 1760px;
+  position            : absolute;
+  margin              : 0;
+  left                : -238px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .rectangle13 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 148px;
+  height              : 2436px;
+  width               : 1125px;
+  position            : absolute;
+  margin              : 0;
+  left                : 229px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1764px;
+  height              : 179px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 321px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .rectangle14 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1674px;
+  height              : 53px;
+  box-sizing          : border-box;
+  width               : 173px;
+  position            : absolute;
+  margin              : 0;
+  left                : 315px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .rectangle21 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1770px;
+  height              : 368px;
+  box-sizing          : border-box;
+  width               : 299px;
+  position            : absolute;
+  margin              : 0;
+  left                : 558px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .rectangle3 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1086px;
+  height              : 155px;
+  box-sizing          : border-box;
+  width               : 128px;
+  position            : absolute;
+  margin              : 0;
+  left                : 936px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .rectangle4 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1266px;
+  height              : 41px;
+  box-sizing          : border-box;
+  width               : 74px;
+  position            : absolute;
+  margin              : 0;
+  left                : 918px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .rectangle5 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1320px;
+  height              : 47px;
+  box-sizing          : border-box;
+  width               : 59px;
+  position            : absolute;
+  margin              : 0;
+  left                : 924px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .rectangle6 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1296px;
+  height              : 47px;
+  box-sizing          : border-box;
+  width               : 68px;
+  position            : absolute;
+  margin              : 0;
+  left                : 999px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .combinedshape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 999px;
+  height              : 131px;
+  width               : 113px;
+  position            : absolute;
+  margin              : 0;
+  left                : 585px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .path6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 969px;
+  height              : 68px;
+  width               : 143px;
+  position            : absolute;
+  margin              : 0;
+  left                : 387px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .rectangle7 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1086px;
+  height              : 173px;
+  box-sizing          : border-box;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 696px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .rectangle8 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1299px;
+  height              : 80px;
+  box-sizing          : border-box;
+  width               : 245px;
+  position            : absolute;
+  margin              : 0;
+  left                : 558px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .combinedshape2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1236px;
+  height              : 227px;
+  width               : 287px;
+  position            : absolute;
+  margin              : 0;
+  left                : 273px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .combinedshape3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1401px;
+  height              : 110px;
+  width               : 395px;
+  position            : absolute;
+  margin              : 0;
+  left                : 408px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .combinedshape4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1452px;
+  height              : 140px;
+  width               : 149px;
+  position            : absolute;
+  margin              : 0;
+  left                : 318px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .combinedshape5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1560px;
+  height              : 53px;
+  width               : 128px;
+  position            : absolute;
+  margin              : 0;
+  left                : 297px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .combinedshape6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1494px;
+  height              : 221px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 507px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .rectangle9 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 399px;
+  height              : 188px;
+  box-sizing          : border-box;
+  width               : 125px;
+  position            : absolute;
+  margin              : 0;
+  left                : 717px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .rectangle10 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 468px;
+  height              : 131px;
+  box-sizing          : border-box;
+  width               : 215px;
+  position            : absolute;
+  margin              : 0;
+  left                : 453px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .rectangle11 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 105px;
+  height              : 143px;
+  box-sizing          : border-box;
+  width               : 161px;
+  position            : absolute;
+  margin              : 0;
+  left                : 720px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .combinedshape7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 2513px;
+  width               : 1760px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .rectangle12 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 723px;
+  height              : 179px;
+  box-sizing          : border-box;
+  width               : 410px;
+  position            : absolute;
+  margin              : 0;
+  left                : 450px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .path12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 813px;
+  height              : 206px;
+  width               : 119px;
+  position            : absolute;
+  margin              : 0;
+  left                : 879px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .path13 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2172px;
+  height              : 140px;
+  width               : 146px;
+  position            : absolute;
+  margin              : 0;
+  left                : 609px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .conlinroad {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 658px;
+  height              : auto;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 592px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 31.0px;
+}
+.sportinfo .group3 .field {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 511px;
+  height              : auto;
+  width               : 92px;
+  position            : absolute;
+  margin              : 0;
+  left                : 733px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 31.0px;
+}
+.sportinfo .group3 .foundersdrive {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 928px;
+  height              : auto;
+  width               : 179px;
+  position            : absolute;
+  margin              : 0;
+  left                : 601px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.sportinfo .group3 .commencementdrive {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1458px;
+  height              : auto;
+  width               : 224px;
+  position            : absolute;
+  margin              : 0;
+  left                : 976px;
+  -ms-transform       : rotate(-31deg); /* IE 9 */
+  -webkit-transform   : rotate(-31deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-31deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.sportinfo .group3 .commencementdrive1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1732px;
+  height              : auto;
+  width               : 224px;
+  position            : absolute;
+  margin              : 0;
+  left                : 625px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.sportinfo .group3 .baseballdiamond {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2212px;
+  height              : auto;
+  width               : 83px;
+  position            : absolute;
+  margin              : 0;
+  left                : 647px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : right;
+  line-height         : 20.0px;
+}
+.sportinfo .group3 .simcoestreet {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1129px;
+  height              : auto;
+  width               : 185px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1088px;
+  -ms-transform       : rotate(62deg); /* IE 9 */
+  -webkit-transform   : rotate(62deg); /* Chrome, Safari, Opera */
+  transform           : rotate(62deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 31.0px;
+}
+.sportinfo .group3 .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 994px;
+  height              : 141px;
+  width               : 99px;
+  position            : absolute;
+  margin              : 0;
+  left                : 706px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .group2 .combinedshape8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 141px;
+  width               : 99px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .group2 .overridesactivityviewairdropcontact {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : 94px;
+  width               : 74px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .group2 .overridesactivityviewairdropcontact .name {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 78px;
+  height              : auto;
+  width               : 73px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 11.7px;
+  color               : rgba(0, 0, 0, 0.85);
+  text-align          : center;
+  letter-spacing      : 0.07px;
+  line-height         : 15.33px;
+}
+.sportinfo .group3 .group2 .overridesactivityviewairdropcontact .avatar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 73px;
+  width               : 73px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .campusrecreation {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1483px;
+  height              : auto;
+  width               : 203px;
+  position            : absolute;
+  margin              : 0;
+  left                : 334px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.sportinfo .group3 .basketball1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1339px;
+  height              : auto;
+  width               : 98px;
+  position            : absolute;
+  margin              : 0;
+  left                : 292px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(254, 56, 36, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.sportinfo .group3 .soccer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 418px;
+  height              : auto;
+  width               : 62px;
+  position            : absolute;
+  margin              : 0;
+  left                : 748px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(254, 56, 36, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.sportinfo .group3 .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1366px;
+  height              : 111px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 316px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .group .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 105px;
+  height              : 6px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .group .rectangle15 {
+  background-color    : rgba(170, 172, 175, 1.0);
+  top                 : 39px;
+  height              : 69px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .group .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .group .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 9px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1399px;
+  height              : 111px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 367px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .group1 .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 105px;
+  height              : 6px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .group1 .rectangle15 {
+  background-color    : rgba(170, 172, 175, 1.0);
+  top                 : 39px;
+  height              : 69px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .group1 .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .group1 .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 9px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .group31 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1378px;
+  height              : 111px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 424px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .group31 .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 105px;
+  height              : 6px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .group31 .rectangle15 {
+  background-color    : rgba(170, 172, 175, 1.0);
+  top                 : 39px;
+  height              : 69px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .group31 .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .group31 .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 9px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .group41 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2116px;
+  height              : 111px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 637px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .group41 .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 105px;
+  height              : 6px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .group41 .rectangle15 {
+  background-color    : rgba(170, 172, 175, 1.0);
+  top                 : 39px;
+  height              : 69px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .group41 .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .group41 .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 9px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .group51 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 448px;
+  height              : 111px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 757px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .group51 .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 105px;
+  height              : 6px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .group51 .rectangle15 {
+  background-color    : rgba(170, 172, 175, 1.0);
+  top                 : 39px;
+  height              : 69px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .group51 .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .group51 .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 9px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group3 .badminton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1375px;
+  height              : auto;
+  width               : 98px;
+  position            : absolute;
+  margin              : 0;
+  left                : 367px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(254, 56, 36, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.sportinfo .rectangle {
+  background-color    : rgba(8, 45, 64, 1.0);
+  top                 : 483px;
+  height              : 351px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .players {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 533px;
+  height              : auto;
+  width               : 84px;
+  position            : absolute;
+  margin              : 0;
+  left                : 301px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 8.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.7px;
+  line-height         : 10.0px;
+}
+.sportinfo .campusrecreational {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 677px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 90px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.sportinfo .basketball {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 509px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 62px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.sportinfo .group7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 544px;
+  height              : 118px;
+  width               : 250px;
+  position            : absolute;
+  margin              : 0;
+  left                : 63px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group7 .rectangle3 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 118px;
+  width               : 250px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group7 .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 108px;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .a2000simcoestnos {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 693px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 91px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 8.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.sportinfo .tuesday1200pm4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 719px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 91px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.sportinfo .group8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 756px;
+  height              : 34px;
+  width               : 156px;
+  position            : absolute;
+  margin              : 0;
+  left                : 110px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group8 .username {
+  background-color    : rgba(237, 210, 103, 1.0);
+  top                 : 0px;
+  height              : 34px;
+  width               : 156px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group8 .join {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : auto;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 59px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(8, 45, 64, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.sportinfo .rectangle1 {
+  background-color    : rgba(139, 139, 139, 1.0);
+  top                 : 489px;
+  height              : 5px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : 166px;
+  border-radius       : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .a27 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 498px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 329px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(237, 210, 103, 1.0);
+  text-align          : left;
+  line-height         : 40.0px;
+}
+.sportinfo .group4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 503px;
+  height              : 35px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group4 .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group4 .combinedshape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 18px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .rectangle2 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 520px;
+  height              : 2px;
+  width               : 155px;
+  position            : absolute;
+  margin              : 0;
+  left                : 158px;
+  border-radius       : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.09;
+}
+.sportinfo .group5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 678px;
+  height              : 25px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group5 .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 6px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group5 .combinedshape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 21px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 717px;
+  height              : 21px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 59px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group6 .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 21px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group6 .combinedshape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 9px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group6 .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 2px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group6 .path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 2px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group6 .path3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 2px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.sportinfo .group6 .path4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 2px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

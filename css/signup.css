@@ -1,0 +1,4111 @@
+
+@font-face {
+                          font-family: "RedHatDisplay-Bold";
+                          src: url('../fonts/RedHatDisplay-Bold.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "RedHatDisplay-Regular";
+                          src: url('../fonts/RedHatDisplay-Regular.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "RedHatDisplay-Medium";
+                          src: url('../fonts/RedHatDisplay-Medium.ttf') format("truetype");
+                        }
+                        
+.signup {
+  width               : 100%;
+  min-width           : 375px;
+  height              : 100vh;
+  min-height          : 812px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-animate-enter10 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter10-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter10-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter10-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter10-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter10-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter10-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter10-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter10-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter11 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter11-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter11-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter11-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter11-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter11-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter11-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter11-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter11-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter12 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter12-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter12-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter12-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter12-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter12-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter12-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter12-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter12-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter13 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter13-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter13-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter13-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter13-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter13-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter13-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter13-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter13-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter14 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter14-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter14-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter14-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter14-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter14-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter14-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter14-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter14-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter15 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter15-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter15-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter15-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter15-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter15-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter15-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter15-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter15-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter16 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter16-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter16-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter16-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter16-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter16-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter16-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter16-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter16-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter17 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter17-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter17-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter17-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter17-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter17-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter17-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter17-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter17-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter18 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter18-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter18-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter18-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter18-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter18-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter18-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter18-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter18-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter19 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter19-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter19-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter19-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter19-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter19-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter19-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter19-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter19-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter20 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter20-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter20-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter20-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter20-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter20-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter20-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter20-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter20-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter21 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter21-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter21-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter21-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter21-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter21-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter21-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter21-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter21-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter22 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter22-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter22-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter22-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter22-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter22-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter22-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter22-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter22-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter23 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter23-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter23-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter23-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter23-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter23-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter23-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter23-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter23-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter24 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter24-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter24-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter24-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter24-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter24-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter24-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter24-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter24-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter25 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter25-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter25-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter25-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter25-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter25-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter25-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter25-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter25-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter26 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter26-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter26-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter26-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter26-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter26-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter26-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter26-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter26-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter27 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter27-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter27-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter27-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter27-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter27-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter27-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter27-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter27-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter28 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter28-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter28-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter28-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter28-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter28-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter28-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter28-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter28-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter29 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter29-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter29-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter29-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter29-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter29-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter29-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter29-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter29-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter30 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter30-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter30-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter30-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter30-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter30-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter30-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter30-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter30-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter31 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter31-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter31-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter31-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter31-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter31-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter31-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter31-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter31-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter32 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter32-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter32-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter32-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter32-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter32-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter32-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter32-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter32-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter33 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter33-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter33-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter33-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter33-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter33-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter33-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter33-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter33-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter34 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter34-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter34-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter34-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter34-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter34-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter34-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter34-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter34-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter35 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter35-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter35-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter35-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter35-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter35-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter35-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter35-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter35-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter36 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter36-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter36-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter36-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter36-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter36-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter36-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter36-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter36-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter37 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter37-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter37-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter37-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter37-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter37-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter37-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter37-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter37-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter38 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter38-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter38-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter38-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter38-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter38-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter38-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter38-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter38-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter39 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter39-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter39-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter39-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter39-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter39-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter39-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter39-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter39-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter40 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter40-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter40-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter40-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter40-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter40-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter40-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter40-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter40-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter41 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter41-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter41-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter41-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter41-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter41-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter41-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter41-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter41-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter42 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter42-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter42-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter42-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter42-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter42-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter42-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter42-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter42-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter43 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter43-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter43-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter43-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter43-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter43-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter43-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter43-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter43-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter44 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter44-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter44-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter44-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter44-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter44-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter44-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter44-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter44-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter45 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter45-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter45-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter45-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter45-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter45-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter45-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter45-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter45-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter46 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter46-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter46-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter46-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter46-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter46-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter46-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter46-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter46-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter47 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter47-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter47-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter47-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter47-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter47-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter47-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter47-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter47-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter48 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter48-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter48-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter48-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter48-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter48-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter48-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter48-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter48-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter49 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter49-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter49-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter49-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter49-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter49-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter49-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter49-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter49-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter50 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter50-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter50-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter50-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter50-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter50-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter50-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter50-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter50-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter51 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter51-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter51-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter51-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter51-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter51-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter51-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter51-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter51-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter52 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter52-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter52-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter52-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter52-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter52-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter52-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter52-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter52-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter53 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter53-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter53-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter53-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter53-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter53-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter53-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter53-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter53-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter54 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter54-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter54-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter54-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter54-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter54-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter54-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter54-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter54-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter55 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter55-frames 0.5s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter55-frames 0.5s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter55-frames 0.5s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter55-frames 0.5s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter55-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter55-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter55-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter55-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.signup .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 112px;
+  height              : 98px;
+  width               : 450px;
+  position            : absolute;
+  margin              : 0;
+  left                : -37px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signup .group .net {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 450px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 74.13px;
+  color               : rgba(8, 45, 64, 1.0);
+  text-align          : center;
+  line-height         : 98.0px;
+}
+.signup .group .logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : 53px;
+  width               : 53px;
+  position            : absolute;
+  margin              : 0;
+  left                : 226px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signup .group .logo .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 53px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signup .group .logo .triangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : 18px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signup .group .logo .triangle21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signup .rectangle {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 119px;
+  height              : 1px;
+  width               : 147px;
+  position            : absolute;
+  margin              : 0;
+  left                : 145px;
+  border-radius       : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signup .got {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 105px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 85px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 21.39px;
+  color               : rgba(8, 45, 64, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.signup .rectangle1 {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 272px;
+  height              : 38px;
+  width               : 279px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+  border-radius       : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signup .rectangle2 {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 317px;
+  height              : 38px;
+  width               : 279px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+  border-radius       : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signup .exampleemailcom {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 284px;
+  height              : auto;
+  width               : 109px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(138, 138, 138, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.signup .password {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 328px;
+  height              : auto;
+  width               : 109px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(138, 138, 138, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.signup .preferences {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 378px;
+  height              : auto;
+  width               : 109px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.signup .selectpreferedspor {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 411px;
+  height              : auto;
+  width               : 146px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.signup .rectangle3 {
+  background-color    : rgba(241, 241, 241, 1.0);
+  top                 : 614px;
+  height              : 90px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+  border-radius       : 7px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signup .prefereddays {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 545px;
+  height              : auto;
+  width               : 146px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.signup .preferedtime {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 623px;
+  height              : auto;
+  width               : 146px;
+  position            : absolute;
+  margin              : 0;
+  left                : 64px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 13.0px;
+}
+.signup .start {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 645px;
+  height              : auto;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 64px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 8.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.signup .end {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 662px;
+  height              : auto;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 64px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 8.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.signup .applytoallprefere {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 683px;
+  height              : auto;
+  width               : 112px;
+  position            : absolute;
+  margin              : 0;
+  left                : 64px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 6.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 8.0px;
+}
+.signup .soccer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 453px;
+  height              : auto;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 13.0px;
+}
+.signup .basketball {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 473px;
+  height              : auto;
+  width               : 64px;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 13.0px;
+}
+.signup .badminton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 514px;
+  height              : auto;
+  width               : 64px;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 13.0px;
+}
+.signup .sun {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 578px;
+  height              : auto;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 63px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 8.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.signup .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 568px;
+  height              : 32px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 215px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signup .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 568px;
+  height              : 32px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 95px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signup .mon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 578px;
+  height              : auto;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 102px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 8.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.signup .tue {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 578px;
+  height              : auto;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 143px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 8.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.signup .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 568px;
+  height              : 32px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 255px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signup .wed {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 578px;
+  height              : auto;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 182px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 8.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.signup .thu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 578px;
+  height              : auto;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 223px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 8.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.signup .fri {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 578px;
+  height              : auto;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 265px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 8.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.signup .sat {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 578px;
+  height              : auto;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 304px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 8.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.signup .tabletennis {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 494px;
+  height              : auto;
+  width               : 77px;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 13.0px;
+}
+.signup .vollyball {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 433px;
+  height              : auto;
+  width               : 77px;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 13.0px;
+}
+.signup .group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 725px;
+  height              : 33px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 227px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signup .group3 .register {
+  background-color    : rgba(236, 210, 103, 1.0);
+  top                 : 0px;
+  height              : 33px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signup .group3 .submit {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : auto;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 13.0px;
+}
+.signup .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 435px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signup .oval4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 455px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signup .oval5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 475px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signup .oval6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 495px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signup .oval7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 515px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signup .oval8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 437px;
+  height              : 6px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signup .oval9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 477px;
+  height              : 6px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signup .oval10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 497px;
+  height              : 6px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signup .rectangle4 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 386px;
+  height              : 1px;
+  width               : 189px;
+  position            : absolute;
+  margin              : 0;
+  left                : 137px;
+  border-radius       : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signup .oval11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 568px;
+  height              : 32px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 55px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signup .oval12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 568px;
+  height              : 32px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 135px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signup .oval13 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 567px;
+  height              : 32px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 175px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signup .oval14 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 568px;
+  height              : 32px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 295px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signup .path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 602px;
+  height              : 14px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 105px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signup .rectangle5 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 645px;
+  height              : 10px;
+  width               : 57px;
+  position            : absolute;
+  margin              : 0;
+  left                : 89px;
+  border-radius       : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signup .path3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 649px;
+  height              : 3px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 138px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signup .rectangle6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 682px;
+  height              : 11px;
+  box-sizing          : border-box;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 136px;
+  border-radius       : 1px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signup .rectangle7 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 662px;
+  height              : 10px;
+  width               : 57px;
+  position            : absolute;
+  margin              : 0;
+  left                : 89px;
+  border-radius       : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signup .path31 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 666px;
+  height              : 3px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 138px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signup .a1200pm {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 646px;
+  height              : auto;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 92px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 6.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 8.0px;
+}
+.signup .a300pm {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 663px;
+  height              : auto;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 92px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 6.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 8.0px;
+}
+.signup .path4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 681px;
+  height              : 9px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 138px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
