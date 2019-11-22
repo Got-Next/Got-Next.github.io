@@ -702,15 +702,34 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
+
+#textboxID {
+  height: 30px; 
+  width: 270px;
+  font-size: 10pt;
+  position: relative;
+  background-color: rgba(236, 236, 236, 1.0);
+  border-radius: 3px;
+  font-family         : "RedHatDisplay-Light", Helvetica, Arial, serif;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
 .login .group4 .rectangle1 {
   background-color    : rgba(236, 236, 236, 1.0);
   top                 : 45px;
-  height              : 38px;
-  width               : 279px;
+  height              : 30px;
+  width               : 270px;
   position            : absolute;
-  margin              : 0;
-  left                : 0px;
   border-radius       : 3px;
+  font-family         : "RedHatDisplay-Light", Helvetica, Arial, serif;
+
+  font-size: 10pt;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -851,7 +870,7 @@ div {
   top                 : 506px;
   height              : 296px;
   width               : 545px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : -85px;
   -ms-transform       : rotate(0deg); /* IE 9 */
@@ -862,10 +881,11 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 633px;
   height              : 292px;
-  width               : 378px;
+  width               : 420px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : -20px;
+  /* right: -40px; */
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
