@@ -705,11 +705,11 @@ div {
 
 #textboxID {
   height: 30px; 
-  width: 270px;
+  width: 278px;
   font-size: 10pt;
   position: relative;
   background-color: rgba(236, 236, 236, 1.0);
-  border-radius: 3px;
+  border-radius: 5px;
   font-family         : "RedHatDisplay-Light", Helvetica, Arial, serif;
 }
 
@@ -731,9 +731,9 @@ input[type=password] {
   background-color    : rgba(236, 236, 236, 1.0);
   top                 : 45px;
   height              : 30px;
-  width               : 270px;
+  width               : 278px;
   position            : absolute;
-  border-radius       : 3px;
+  border-radius       : 5px;
   font-family         : "RedHatDisplay-Light", Helvetica, Arial, serif;
 
   font-size: 10pt;
