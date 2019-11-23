@@ -719,6 +719,13 @@ input[type=text] {
   margin: 8px 0;
   box-sizing: border-box;
 }
+input[type=password] {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
 
 .login .group4 .rectangle1 {
   background-color    : rgba(236, 236, 236, 1.0);
