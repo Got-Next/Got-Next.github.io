@@ -658,21 +658,23 @@ div {
   transform           : rotate(0deg);
 }
 .map .group4 .whatsportdoyouwa {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : auto;
-  width               : 175px;
-  position            : absolute;
-  margin              : 0;
-  left                : 79px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "RedHatDisplay-Regular", Helvetica, Arial, serif;
-  font-size           : 12.0px;
-  color               : rgba(0, 0, 0, 0.45);
-  text-align          : left;
-  line-height         : 16.0px;
+  background-color: 
+  rgb(241, 243, 244);
+  top: 6.5px;
+  height: auto;
+  width: 175px;
+  position: absolute;
+  margin: 0;
+  left: 79px;
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  font-family: "RedHatDisplay-Regular", Helvetica, Arial, serif;
+  font-size: 12.0px;
+  color:black;
+  text-align: left;
+  line-height: 16.0px;
+  border: 0;
 }
 .map .logo {
   background-color    : rgba(255,255,255,0.0);

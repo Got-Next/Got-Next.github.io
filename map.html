@@ -96,13 +96,11 @@
                 </div>
                 <div class="rectangle13">
                 </div>
-                <a href="javascript:animaShowOverlay('search', 'anima-animate-appear'); anima_loadAsyncSrc(); ">
+                <!--<a href="javascript:animaShowOverlay('search', 'anima-animate-appear'); anima_loadAsyncSrc(); ">-->
                     <div class="group4">
                         <div class="username">
                         </div>
-                        <div class="whatsportdoyouwa">
-                            What sport do you want to play?
-                        </div>
+                        <input placeholder="What sport do you want to play?" class="whatsportdoyouwa">
                     </div>
                 </a>
                 <div class="logo">
@@ -1196,8 +1194,17 @@
                         var video = vids.item(i);
                         video.pause();
                     }
-                }
+                } 
             };
+        </script>
+        <script>
+            var input = document.querySelector(".whatsportdoyouwa");
+            input.addEventListener("keyup", function(event) {
+              if (event.keyCode === 13) {
+               event.preventDefault();
+               location.replace("search.html");
+              }
+            });
         </script>
  </div>
         <!-- End of Scripts -->
