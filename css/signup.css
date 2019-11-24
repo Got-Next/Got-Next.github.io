@@ -3297,7 +3297,7 @@ div {
   background-color: rgba(236, 236, 236, 1.0);
   border-radius: 5px;
   left:               48px;
-
+  border: 0;
   font-family         : "RedHatDisplay-Light", Helvetica, Arial, serif;
 }
 
@@ -3324,7 +3324,7 @@ input[type=password] {
   position            : absolute;
   border-radius       : 5px;
   font-family         : "RedHatDisplay-Light", Helvetica, Arial, serif;
-
+  border: 0;
   font-size: 10pt;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */

@@ -711,6 +711,7 @@ div {
   background-color: rgba(236, 236, 236, 1.0);
   border-radius: 5px;
   font-family         : "RedHatDisplay-Light", Helvetica, Arial, serif;
+  border: 0;
 }
 
 input[type=text] {
@@ -740,6 +741,8 @@ input[type=password] {
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
+  border: 0;
+
 }
 .login .group4 .exampleemailcom {
   background-color    : rgba(255,255,255,0.0);
