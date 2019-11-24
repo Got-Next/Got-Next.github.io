@@ -3330,19 +3330,22 @@ input[type=password] {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.signup .rectangle2 {
+.signup .group4 .rectangle2 {
   background-color    : rgba(236, 236, 236, 1.0);
-  top                 : 317px;
-  height              : 38px;
-  width               : 279px;
+  top                 : 318px;
+  height              : 90px;
+  width               : 278px;
+  left:               48px;
   position            : absolute;
-  margin              : 0;
-  left                : 48px;
-  border-radius       : 3px;
+  border-radius       : 5px;
+  font-family         : "RedHatDisplay-Light", Helvetica, Arial, serif;
+  border: 0;
+  font-size: 10pt;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
+
 .signup .exampleemailcom {
   background-color    : rgba(255,255,255,0.0);
   top                 : 284px;
