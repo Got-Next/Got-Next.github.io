@@ -11,7 +11,9 @@
                           font-family: "RedHatDisplay-Medium";
                           src: url('../fonts/RedHatDisplay-Medium.ttf') format("truetype");
                         }
-                        
+   
+
+  
   .login {
   width               : 100%;
   min-width           : 375px;
